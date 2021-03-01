@@ -11,5 +11,5 @@
 ---
 
 * [Mobile Web Development](mobile-web-development/README.md)
-  * [1. 页面自适应](mobile-web-development/1.-ye-mian-zi-kuo-ying.md)
+  * [1. 页面自适应](mobile-web-development/1.page-adaption.md)
 
