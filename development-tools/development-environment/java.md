@@ -32,8 +32,6 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export JAVA_HOME=$(/usr/libexec/java_home -v 11)
 ```
 
-
-
 切换到其他版本以此类推，只要你有在当前计算机系统内有安装。
 
 查看当前 macOS 系统内安装所有的 JDK 版本
