@@ -12,7 +12,7 @@
 
 上述引用中所述的“返回一个指定的值“，并非是必须。
 
-在函数体中使用 return 语句时，函数将会停止运行。无论你的 return 在该函数的哪个位置，比如你嵌套了多层的 if 语句，**只要有一个执行，那么剩下的语句将不再执行**。比如：
+在函数体中使用 return 语句时，函数将会停止运行。无论你的 return 在该函数的哪个位置，比如你嵌套了多层的 if 语句，**一旦有一个 return 执行，那么剩下的语句将不再执行**。比如：
 
 ```javascript
 function returnTest(params) {
@@ -43,4 +43,6 @@ returnTest();
 进入第二层 -- if 
 接着，执行 return 
 ```
+
+假如 return 出现在非函数体内的 JavaScript 代码中，将会报错：Uncaught SyntaxError: Illegal return statement。
 
