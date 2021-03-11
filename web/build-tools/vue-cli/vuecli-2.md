@@ -1,4 +1,4 @@
-# VueCLI 2
+# Vue CLI 2
 
 ## Build
 
