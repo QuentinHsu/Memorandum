@@ -12,7 +12,7 @@
 
 上述引用中所述的“返回一个指定的值“，并非是必须。
 
-在函数体中使用 return 语句时，函数将会停止运行。无论你的 return 在该函数的哪个位置，比如你嵌套了多层的 if 语句，**一旦有一个 return 执行，那么剩下的语句将不再执行**。比如：
+在函数体中使用 return 语句时，函数将会停止运行。无论你的 return 在该函数的哪个位置，哪怕是你在 return 外嵌套了多层的 if 语句，**一旦有一个 return 执行，那么剩下的语句将不再执行**。比如：
 
 ```javascript
 function returnTest(params) {
@@ -44,5 +44,59 @@ returnTest();
 接着，执行 return 
 ```
 
-假如 return 出现在非函数体内的 JavaScript 代码中，将会报错：Uncaught SyntaxError: Illegal return statement。
+假如 return 出现在非函数体内的 JavaScript 代码中，将会报错：
+
+```javascript
+Uncaught SyntaxError: Illegal return statement
+```
+
+### 只会阻断自己所在的第一层函数
+
+return，虽说能阻断函数的执行，但它仅仅**只能阻断自己所在的第一层函数**。
+
+```javascript
+function returnFunction(params) {
+  console.log("执行了 returnFunction 函数")
+  return
+  console.log("假如你看到这条日志，那么 returnFunction 函数就没被阻断")
+}
+returnFunction()
+```
+
+但假如你将上述这个 returnFunction 函数，放在另一个 external 函数里执行：
+
+```javascript
+function returnFunction(params) {
+  console.log("执行了 returnFunction 函数")
+  return
+  console.log("假如你看到这条日志，那么 returnFunction 函数就没被阻断")
+}
+
+function external(params) {
+  returnFunction()
+  console.log("external 函数被执行")
+}
+external()
+```
+
+那么，被阻断的只有函数 returnFunction，而函数 external 如期被执行。
+
+如果想函数 external 因为函数 returnFunction 的阻断而阻断，那么函数 returnFunction 中的 return 需要返回一个“标志“，比如 `return false`，`return 1` ，以执行另一个 return。
+
+```javascript
+function returnFunction(params) {
+  console.log("执行了 returnFunction 函数")
+  return 1
+  console.log("假如你看到这条日志，那么 returnFunction 函数就没被阻断")
+}
+
+function external(params) {
+  if (returnFunction() === 1) {
+    return
+  }
+  returnFunction()
+  console.log("external 函数被执行")
+}
+external()
+```
 
