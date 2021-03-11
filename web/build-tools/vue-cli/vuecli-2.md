@@ -8,9 +8,8 @@
 
 假如生产环境不会使用该类型文件，那么我们很有必要不在 Build 的时候不去生产该类文件！以减少编译时间和减小整个文件体积。
 
-/config/index.js
-
 ```javascript
+// config/index.js
 build: {
     // ……
     /**
