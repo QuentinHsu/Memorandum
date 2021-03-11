@@ -23,3 +23,7 @@ build: {
 }
 ```
 
+## 参考资料
+
+* [vue-cli2模板配置文件分析 - jiangyou000](https://github.com/jiangyou000/blog/issues/1)
+
