@@ -63,7 +63,7 @@ function returnFunction(params) {
 returnFunction()
 ```
 
-但假如你将上述这个 returnFunction 函数，放在另一个 external 函数里执行：
+比如，假如你将上述这个 _returnFunction_ 函数，放在另一个 _external_ 函数里执行：
 
 ```javascript
 function returnFunction(params) {
@@ -79,9 +79,9 @@ function external(params) {
 external()
 ```
 
-那么，被阻断的只有函数 returnFunction，而函数 external 如期被执行。
+那么，被阻断的只有函数 _returnFunction_，而函数 _external_ 如期被执行。
 
-如果想函数 external 因为函数 returnFunction 的阻断而阻断，那么函数 returnFunction 中的 return 需要返回一个“标志“，比如 `return false`，`return 1` ，以执行另一个 return。
+如果想函数 _external_ 因为函数 _returnFunction_ 的阻断而阻断，那么函数 _returnFunction_ 中的 return 需要返回一个“标志“，比如 `return false`，`return 1` ，以触发执行另一个 return。
 
 ```javascript
 function returnFunction(params) {
