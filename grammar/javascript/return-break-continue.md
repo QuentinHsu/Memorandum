@@ -102,6 +102,8 @@ external()
 
 ## break
 
+只为循环（Loop）的中断，但只中断当前
+
 
 
 
