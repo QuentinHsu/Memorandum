@@ -16,6 +16,8 @@
     * [v-for](web/development-framework/vue.js/v-for.md)
 * [Mobile Web Development](web/mobile-web-development/README.md)
   * [1. 页面自适应](web/mobile-web-development/1.page-adaption.md)
+  * [2. 移动端平台特性问题](web/mobile-web-development/2.-yi-dong-duan-ping-tai-te-xing-wen-ti/README.md)
+    * [Android](web/mobile-web-development/2.-yi-dong-duan-ping-tai-te-xing-wen-ti/android.md)
 
 ## Grammar
 
