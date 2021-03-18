@@ -1,4 +1,2 @@
-# Initial
-
-Personal Memorandum
+# Memorandum
 

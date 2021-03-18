@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial](README.md)
+* [Memorandum](README.md)
 
 ## Web
 
