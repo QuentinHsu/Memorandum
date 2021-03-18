@@ -102,7 +102,19 @@ external()
 
 ## break
 
-只为循环（Loop）的中断，但只中断当前
+### 不能直接出现在函数体中！
+
+只能在循环（Loop）体，switch 或者 label 语句中使用，不能在函数体中直接使用。
+
+![](../../.gitbook/assets/image%20%286%29.png)
+
+
+
+
+
+
+
+
 
 
 
