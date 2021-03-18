@@ -34,6 +34,8 @@ preventWeChatModifyFontSizeForAndroid()
 
 实测（20210318）有效！马上去更新生产环境！🙌
 
+在 iOS 平台，设置 WeChat App 内部字体大小，无此类影响。
+
 ## 参考资料
 
 * [移动端用户设置字体放大导致的问题](https://www.cnblogs.com/axl234/p/7753187.html)
