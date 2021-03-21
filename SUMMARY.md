@@ -27,5 +27,6 @@
 ## Development Tools
 
 * [Development Environment](development-tools/development-environment/README.md)
+  * [Go](development-tools/development-environment/go.md)
   * [Java](development-tools/development-environment/java.md)
 
