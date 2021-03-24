@@ -29,9 +29,6 @@
 * [Development Environment](development-tools/development-environment/README.md)
   * [Go](development-tools/development-environment/go.md)
   * [Java](development-tools/development-environment/java.md)
-* [Package Management Tools](development-tools/package-management-tools.md)
-
----
-
-* [Choco](choco.md)
+* [Package Management Tools](development-tools/package-management-tools/README.md)
+  * [Chocolate](development-tools/package-management-tools/choco.md)
 
