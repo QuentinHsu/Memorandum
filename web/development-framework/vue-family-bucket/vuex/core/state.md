@@ -22,7 +22,7 @@ computed: mapState({
 })
 ```
 
-* 使用对象展开运算符”展开“ mapState 函数
+* 在 computed 内使用对象展开运算符”展开“ mapState 函数
 
 ```javascript
 computed: {
