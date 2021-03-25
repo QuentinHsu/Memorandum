@@ -6,7 +6,7 @@
 
 在更新 macOS 版本后，会遇到 iTerm 低栏显示 Git 出现了问题，点击其⚠️图标就会弹出如下图的提示信息：
 
-![](.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 可 Git 功能是正常的。
 
