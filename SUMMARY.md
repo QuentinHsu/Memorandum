@@ -37,4 +37,9 @@
   * [Java](development-tools/development-environment/java.md)
 * [Package Management Tools](development-tools/package-management-tools/README.md)
   * [Chocolate](development-tools/package-management-tools/choco.md)
+* [Terminals Tools](development-tools/terminals-tools.md)
+
+---
+
+* [iTerm](iterm.md)
 
