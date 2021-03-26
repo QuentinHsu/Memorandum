@@ -18,6 +18,7 @@
     * [Vuex](web/development-framework/vue-family-bucket/vuex/README.md)
       * [Core](web/development-framework/vue-family-bucket/vuex/core/README.md)
         * [State](web/development-framework/vue-family-bucket/vuex/core/state.md)
+        * [Getters](web/development-framework/vue-family-bucket/vuex/core/getters.md)
 * [Mobile Web Development](web/mobile-web-development/README.md)
   * [1. 页面自适应](web/mobile-web-development/1.page-adaption.md)
   * [2. 移动端平台特性问题](web/mobile-web-development/2.mobile-platform-characteristics/README.md)
