@@ -10,7 +10,7 @@
 
 在不使用 mapState 辅助函数时，你需要用 `this.$store.state` 的繁琐方式才能获取存储在 Vuex State 中的状态值，虽然你可以暂存，但还是不够”优雅“。
 
-使用 mapState 辅助函数，你可以更方便获取到 State。
+使用 mapState 辅助函数，你可以更方便地获取到 State。
 
 而 mapState 辅助函数，大体上有两种用法：
 
