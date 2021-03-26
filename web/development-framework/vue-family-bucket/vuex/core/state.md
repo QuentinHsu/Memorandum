@@ -34,7 +34,36 @@ computed: {
 
 注意，像上述两种方式，不在其中显式地引入具体的 State 状态，是无法使用其状态值的。mapState 函数只是提供一个可以引入 State 状态的“环境”，想使用具体的 State 状态，还需要我们**按需引入**。
 
+### 按需引入
+
+* 箭头函数
+
+```javascript
+countAlias：state => state.count
+```
+
+* 传 State 同名字符串
+
+```javascript
+countAlias: 'count'
+// 'count' 等同于 state => state.count
+
+// 假如你依旧使用跟 state 状态名一样的字段，那么你可以这样简写:
+'count'
+```
 
 
 
+使用上述两种引入方式，其引用的状态将被挂载到当前组件 this（局部），使其能被访问和使用，且**仅在当前组件中有效**。没被在此按需引用的，将不能通过 this 访问。
+
+```javascript
+computed: {
+  ...mapState({
+    countAlias: 'count',
+  }),
+  countResult() {
+    return 'this is countResult: ' + this.countAlias
+  },
+},
+```
 
