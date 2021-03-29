@@ -29,7 +29,11 @@
 ## Grammar
 
 * [JavaScript](grammar/javascript/README.md)
+  * [var, let, const](grammar/javascript/var-let-const.md)
   * [return, break, continue](grammar/javascript/return-break-continue.md)
+  * [Basic Data Type](grammar/javascript/basic-data-type.md)
+  * [Global Objects](grammar/javascript/global-objects/README.md)
+    * [Object](grammar/javascript/global-objects/object.md)
 
 ## Development Tools
 
