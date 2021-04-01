@@ -5,6 +5,10 @@
 ## Web
 
 * [Best Code](web/best-code/README.md)
+  * [JavaScript](web/best-code/javascript/README.md)
+    * [Format Data](web/best-code/javascript/format-data/README.md)
+      * [Number](web/best-code/javascript/format-data/number/README.md)
+        * [Decimal](web/best-code/javascript/format-data/number/decimal.md)
   * [CSS](web/best-code/css/README.md)
     * [文本布局](web/best-code/css/text-layout.md)
 * [Build Tools](web/build-tools/README.md)
