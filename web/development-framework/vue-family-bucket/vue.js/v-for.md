@@ -9,8 +9,8 @@
 ```markup
 <div>
     <div v-for="(item, index) for list1" :key="index">
-  </div>
-  <div v-for="(item, index) for list2" :key="index">
+    </div>
+    <div v-for="(item, index) for list2" :key="index">
     </div>
 </div>
 ```
