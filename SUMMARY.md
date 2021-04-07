@@ -32,8 +32,8 @@
 
 ## Grammar
 
-* [Go](grammar/go.md)
-* [Start](grammar/start.md)
+* [Go](grammar/go/README.md)
+  * [Start](grammar/go/start.md)
 * [JavaScript](grammar/javascript/README.md)
   * [var, let, const](grammar/javascript/var-let-const.md)
   * [return, break, continue](grammar/javascript/return-break-continue.md)
