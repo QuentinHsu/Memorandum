@@ -19,7 +19,7 @@ yarn add babel-plugin-import -D
 
 ## 配置
 
-在 babel-plugin-import 配置 vant
+* 在 babel-plugin-import 配置 vant
 
 ```javascript
 // babel.config.js
@@ -31,10 +31,10 @@ module.exports = {
       style: true
     }, 'vant']
   ]
-};
+}
 ```
 
-你需要啥相关组件，直接在下方的 import 中按需导入，并 Vue.use（可链式 use 🤣）。
+* 你需要啥相关组件，直接在下方的 import 中按需导入，并 Vue.use（可链式 use 🤣）。
 
 ```javascript
 // main.js
