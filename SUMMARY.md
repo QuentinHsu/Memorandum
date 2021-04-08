@@ -57,5 +57,5 @@
 
 ## Miscellaneous
 
-* [不要让其他网页的搜索引擎在 Chrome 引擎管理里拉屎](miscellaneous/untitled.md)
+* [不要让其他网页的搜索引擎在 Chrome 引擎管理里拉屎](miscellaneous/dont-let-other-web-search-engines-shit-on-chrome-engine-manager.md)
 
