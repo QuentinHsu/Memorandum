@@ -55,3 +55,7 @@
 * [Terminals Tools](development-tools/terminals-tools/README.md)
   * [iTerm](development-tools/terminals-tools/iterm.md)
 
+## Miscellaneous
+
+* [Untitled](miscellaneous/untitled.md)
+
