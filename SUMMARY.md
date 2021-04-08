@@ -18,6 +18,7 @@
 * [Development Framework](web/development-framework/README.md)
   * [UI Frameworks](web/development-framework/ui-frameworks/README.md)
     * [Vant UI](web/development-framework/ui-frameworks/vant-ui/README.md)
+      * [自动按需导入](web/development-framework/ui-frameworks/vant-ui/import-on-demand.md)
       * [Sidebar 侧边导航](web/development-framework/ui-frameworks/vant-ui/sidebar-ce-bian-dao-hang.md)
   * [Vue Family Bucket](web/development-framework/vue-family-bucket/README.md)
     * [Vue.js](web/development-framework/vue-family-bucket/vue.js/README.md)
