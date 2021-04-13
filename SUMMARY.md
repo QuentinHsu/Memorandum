@@ -62,5 +62,6 @@
 
 ## computer-science
 
-* [Untitled](computer-science/untitled.md)
+* [Algorithm](computer-science/algorithm.md)
+* [LeetCode](computer-science/leetcode.md)
 
