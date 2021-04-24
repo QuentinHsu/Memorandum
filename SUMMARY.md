@@ -62,6 +62,6 @@
 
 ## computer-science
 
-* [Algorithm](computer-science/algorithm.md)
-* [LeetCode](computer-science/leetcode.md)
+* [Algorithm](computer-science/algorithm/README.md)
+  * [LeetCode](computer-science/algorithm/leetcode.md)
 
