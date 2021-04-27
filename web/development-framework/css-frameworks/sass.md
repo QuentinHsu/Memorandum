@@ -65,5 +65,32 @@ a {
 }
 ```
 
+编译为
 
+```css
+#main {
+  color: black; }
+  #main a {
+    font-weight: bold; }
+    #main a:hover {
+      color: red; }
+```
+
+ `&` 必须作为选择器的第一个字符，其后可以跟随后缀生成复合的选择器，例如
+
+```css
+#main {
+  color: black;
+  &-sidebar { border: 1px solid; }
+}
+```
+
+编译为
+
+```css
+#main {
+  color: black; }
+  #main-sidebar {
+    border: 1px solid; }
+```
 
