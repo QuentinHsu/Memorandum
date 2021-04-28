@@ -34,5 +34,24 @@ GitHub：[https://github.com/starship/starship](https://github.com/starship/star
 PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 ```
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
+
+仅仅安装了还不能直接使用，还需要在 PowerShell 中配置
+
+* 找到 PowerShell 的配置文件 在 PowerShell 执行如下命令，以显示 PowerShell 配置文件路径
+
+```bash
+$Profile
+```
+
+![](../../.gitbook/assets/image%20%2814%29.png)
+
+* 在该文件中配置如下内容
+
+```bash
+Import-Module posh-git # 引入 posh-git
+Set-PSReadlineKeyHandler -Key Tab -Function Complete # 设置 Tab 键补全
+```
+
+重新打开以生效。
 
