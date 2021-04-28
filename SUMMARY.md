@@ -57,6 +57,7 @@
 * [Package Management Tools](development-tools/package-management-tools/README.md)
   * [Chocolate](development-tools/package-management-tools/choco.md)
 * [Terminals Tools](development-tools/terminals-tools/README.md)
+  * [Windows Terminal](development-tools/terminals-tools/windows-terminal.md)
   * [iTerm](development-tools/terminals-tools/iterm.md)
 
 ## Miscellaneous
