@@ -20,5 +20,19 @@ GitHub：[https://github.com/starship/starship](https://github.com/starship/star
 
 安装以下内容，以解决。
 
-[https://www.microsoft.com/zh-CN/download/details.aspx?id=49981](https://www.microsoft.com/zh-CN/download/details.aspx?id=49981)
+{% embed url="https://www.microsoft.com/zh-CN/download/details.aspx?id=49981" %}
+
+## 增强
+
+### posh-git
+
+对于 Git 命令的 Tab 按键提示。
+
+在 PowerShell 中执行
+
+```bash
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
+```
+
+![](../../.gitbook/assets/image%20%2815%29.png)
 
