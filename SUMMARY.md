@@ -12,6 +12,8 @@
   * [CSS](web/best-code/css/README.md)
     * [文本布局](web/best-code/css/text-layout.md)
 * [Dev Tools](web/dev-tools/README.md)
+  * [Package Tools](web/dev-tools/package-tools/README.md)
+    * [About package-lock](web/dev-tools/package-tools/about-package-lock.md)
   * [Vite](web/dev-tools/vite.md)
   * [Vue CLI](web/dev-tools/vue-cli/README.md)
     * [Vue CLI 2](web/dev-tools/vue-cli/vuecli-2.md)
