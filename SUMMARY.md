@@ -37,8 +37,8 @@
     * [Android](web/mobile-web-development/2.mobile-platform-characteristics/android.md)
 * [Browser](web/browser/README.md)
   * [DOM](web/browser/dom.md)
-* [Plugs](web/plugs.md)
-* [el-tree-transfer](web/el-tree-transfer.md)
+* [Plugs](web/plugs/README.md)
+  * [el-tree-transfer](web/plugs/el-tree-transfer.md)
 
 ## Grammar
 
