@@ -38,6 +38,7 @@
 * [Browser](web/browser/README.md)
   * [DOM](web/browser/dom.md)
 * [Plugs](web/plugs/README.md)
+  * [Text Editor](web/plugs/text-editor.md)
   * [el-tree-transfer](web/plugs/el-tree-transfer.md)
 
 ## Grammar
