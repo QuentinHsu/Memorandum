@@ -46,6 +46,8 @@
 * [Go](grammar/go/README.md)
   * [Start](grammar/go/start.md)
 * [JavaScript](grammar/javascript/README.md)
+  * [正则表达式](grammar/javascript/regex/README.md)
+    * [常用正则表达式](grammar/javascript/regex/common-regular-expressions.md)
   * [var, let, const](grammar/javascript/var-let-const.md)
   * [return, break, continue](grammar/javascript/return-break-continue.md)
   * [Basic Data Type](grammar/javascript/basic-data-type.md)
