@@ -64,6 +64,8 @@
 * [Terminals Tools](development-tools/terminals-tools/README.md)
   * [Windows Terminal](development-tools/terminals-tools/windows-terminal.md)
   * [iTerm](development-tools/terminals-tools/iterm.md)
+* [VS Code Configuration](development-tools/vs-code-configuration.md)
+* [Prettier](development-tools/prettier.md)
 
 ## Miscellaneous
 
