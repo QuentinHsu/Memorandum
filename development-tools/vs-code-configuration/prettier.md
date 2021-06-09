@@ -6,7 +6,5 @@
 
 ## Mac
 
-
-
 ![Select only &quot;Allow Anywhere&quot;](../../.gitbook/assets/image%20%2819%29.png)
 
