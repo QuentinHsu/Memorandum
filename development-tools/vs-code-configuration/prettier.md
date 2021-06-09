@@ -1,6 +1,8 @@
 # Prettier
 
-## [https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+{% embed url="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" %}
+
+
 
 ## Mac
 
