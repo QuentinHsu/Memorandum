@@ -64,6 +64,9 @@
 * [Terminals Tools](development-tools/terminals-tools/README.md)
   * [Windows Terminal](development-tools/terminals-tools/windows-terminal.md)
   * [iTerm](development-tools/terminals-tools/iterm.md)
+* [Version Tool](development-tools/version-tool/README.md)
+  * [Git](development-tools/version-tool/git/README.md)
+    * [不同的工作区，不同的 git config](development-tools/version-tool/git/bu-tong-de-gong-zuo-qu-bu-tong-de-git-config.md)
 * [VS Code Configuration](development-tools/vs-code-configuration/README.md)
   * [Prettier](development-tools/vs-code-configuration/prettier.md)
 
